@@ -4,8 +4,6 @@ local Window = Library.CreateLib("#StopWar Scripts HUB", "Ocean")
 --Main
 
 local Main = Window:NewTab("Main")
-
-local MainSection = Main:NewSection("Main")
 MainSection:NewButton("Anti Afk script(READ DESC)", "click 10-inf times ", function()
     print("Clicked")
     local vu = game:GetService("VirtualUser")
@@ -400,4 +398,3 @@ BXSSection:NewButton("Teleport Beach", "Beach location teleport", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28.0729, 90.983, 119.659)
 end)
 local BXSSection = BXS:NewSection("Tysm !sunken exploits! for scripts")
-
