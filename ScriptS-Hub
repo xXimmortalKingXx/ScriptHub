@@ -5,6 +5,7 @@ local Window = Library.CreateLib("#StopWar Scripts HUB", "Ocean")
 
 local Main = Window:NewTab("Main")
 
+local MainSection = Main:NewSection("Main")
 MainSection:NewButton("Anti Afk script(READ DESC)", "click 10-inf times ", function()
     print("Clicked")
     local vu = game:GetService("VirtualUser")
